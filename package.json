@@ -1,6 +1,6 @@
 {
   "name": "mw-react-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MW React Tools",
   "dependencies": {
     "address": "^1.0.3",
@@ -43,6 +43,9 @@
   "devDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "bin": {
+    "mw-react-tools": "./bin/mw-react-tools.js"
   },
   "scripts": {
     "test": "node tools/dev",
