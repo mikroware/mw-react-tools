@@ -51,6 +51,9 @@
     "test": "node tools/dev",
     "build:panel": "cross-env NODE_ENV=production webpack --config webpack.config-panel.js"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikroware/mw-react-tools.git"
